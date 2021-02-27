@@ -1,21 +1,12 @@
 import Header from '../components/Header/Header'
 
+import * as constants from '../commons/constants'
 import styles from '../styles/home.module.css'
 
 const Home = () => {
-  const options = [
-    {
-      label: 'Contact me',
-      link: '/contact',
-    },
-    {
-      label: 'About me',
-      link: '/about',
-    },
-  ]
   return (
     <body className={styles.body}>
-      <Header options={options} />
+      <Header options={constants.options} />
     </body>
   )
 }
