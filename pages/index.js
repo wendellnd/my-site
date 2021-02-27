@@ -1,12 +1,12 @@
 import Header from '../components/Header/Header'
 
-import * as constants from '../commons/constants'
+import * as utils from '../utils/constants'
 import styles from '../styles/home.module.css'
 
 const Home = () => {
   return (
     <body className={styles.body}>
-      <Header options={constants.options} />
+      <Header options={utils.options} />
     </body>
   )
 }
