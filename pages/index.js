@@ -6,11 +6,11 @@ const Home = () => {
   const options = [
     {
       label: 'Contact me',
-      link: 'https://github.com',
+      link: '/contact',
     },
     {
       label: 'About me',
-      link: 'https://github.com',
+      link: '/about',
     },
   ]
   return (
