@@ -1,0 +1,30 @@
+.header {
+  color: white;
+  background-color: #1a1a1f;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-left: 1.5rem;
+  padding-right: 2rem;
+  padding-top: 0.7rem;
+  padding-bottom: 0.7rem;
+}
+
+.menu {
+  font-size: 25px;
+  line-height: 35px;
+}
+
+.list {
+  list-style: none;
+  display: flex;
+  justify-content: space-between;
+  margin: 0;
+  padding-inline-start: 0;
+  width: 13.5rem;
+}
+
+.list a {
+  color: white;
+  text-decoration: none;
+}
