@@ -10,14 +10,14 @@
 .speechBalloon {
   background-image: url('../../public/speech-balloon.png');
   width: 700px;
-  height: 450px;
+  height: 375px;
   display: flex;
   justify-content: center;
 }
 
 .speechBalloon button {
   width: 600px;
-  height: 300px;
+  height: 250px;
   border: none;
   background-color: transparent;
   font-family: 'Press Start 2P';
