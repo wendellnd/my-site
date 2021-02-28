@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
 
 .body {
   margin: 0;
@@ -9,4 +10,20 @@
 
 .speechBalloon{
   background-image: url('../public/speech-balloon.png');
+  width: 700px;
+  height: 450px;
+  display: flex;
+  justify-content: center;
+}
+
+.speechBalloon button {
+  width: 600px;
+  height: 300px;
+  border: none;
+  background-color: transparent;
+  font-family: 'Press Start 2P';
+  font-size: 1.5rem;
+  text-align: left;
+  outline: none;
+  box-shadow: none;
 }

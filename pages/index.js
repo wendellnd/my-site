@@ -26,8 +26,8 @@ const Home = () => {
 
       <div className={styles.speechBalloon}>
         <button onClick={changeSpeech}>
+          <p>{speechs[speechIndex]}</p>
         </button>
-        <p>{speechs[speechIndex]}</p>
       </div>
     </body>
   )
