@@ -1,6 +1,6 @@
-import Header from '../components/Header/Header'
-import Speech from '../components/Speech/Speech'
-import * as utils from '../utils/constants'
+import Header from '../components/Header/Header';
+import Speech from '../components/Speech/Speech';
+import * as utils from '../utils/constants';
 const Home = () => {
   return (
     <>
@@ -8,7 +8,7 @@ const Home = () => {
 
       <Speech />
     </>
-  )
-}
+  );
+};
 
-export default Home
+export default Home;

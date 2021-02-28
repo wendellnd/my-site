@@ -1,5 +1,5 @@
-import styles from './styles.module.css'
-import Link from 'next/link'
+import styles from './styles.module.css';
+import Link from 'next/link';
 
 const Header = ({ options }) => {
   return (
@@ -12,20 +12,18 @@ const Header = ({ options }) => {
       </Link>
       <div>
         <ul className={styles.list}>
-          {
-            options &&
+          {options &&
             options.map((option, index) => (
               <li key={index}>
                 <Link href={option.link}>
                   <a>{option.label}</a>
                 </Link>
               </li>
-            ))
-          }
+            ))}
         </ul>
       </div>
     </header>
-  )
-}
+  );
+};
 
-export default Header
+export default Header;

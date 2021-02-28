@@ -7,4 +7,4 @@ export const options = [
     label: 'Contact me',
     link: '/contact',
   },
-]
+];

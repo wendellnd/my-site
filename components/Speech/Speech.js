@@ -1,20 +1,20 @@
-import Image from 'next/image'
-import { useState } from 'react'
-import styles from './styles.module.css'
+import Image from 'next/image';
+import { useState } from 'react';
+import styles from './styles.module.css';
 
 const Speech = () => {
-  const [speechIndex, setSpeechIndex] = useState(0)
+  const [speechIndex, setSpeechIndex] = useState(0);
   const speechs = [
     'Hello! if you’re here, I think you wanna know about me',
     'Fortunately,  I will share it with you ;)',
     'So, click here and let’s start!',
-  ]
+  ];
 
   const changeSpeech = () => {
     if (speechIndex < 2) {
-      setSpeechIndex(speechIndex + 1)
+      setSpeechIndex(speechIndex + 1);
     }
-  }
+  };
   return (
     <div className={styles.speechAlign}>
       <Image
@@ -29,7 +29,7 @@ const Speech = () => {
         </button>
       </div>
     </div>
-  )
-}
+  );
+};
 
-export default Speech
+export default Speech;
