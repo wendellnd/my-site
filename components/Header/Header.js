@@ -1,7 +1,7 @@
 import styles from './styles.module.css'
 import Link from 'next/link'
 
-const Header = ({options}) => {
+const Header = ({ options }) => {
   return (
     <header className={styles.header}>
       <div className={styles.menu}>WendellNascimentoDourado</div>

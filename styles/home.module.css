@@ -8,14 +8,14 @@
   font-weight: bold;
 }
 
-.speechAlign{
+.speechAlign {
   display: flex;
   align-items: center;
   justify-content: space-around;
   margin-top: 5rem;
 }
 
-.speechBalloon{
+.speechBalloon {
   background-image: url('../public/speech-balloon.png');
   width: 700px;
   height: 450px;
