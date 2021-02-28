@@ -12,13 +12,16 @@ const Header = ({ options }) => {
       </Link>
       <div>
         <ul className={styles.list}>
-          {options.map((option, index) => (
-            <li key={index}>
-              <Link href={option.link}>
-                <a>{option.label}</a>
-              </Link>
-            </li>
-          ))}
+          {
+            options &&
+            options.map((option, index) => (
+              <li key={index}>
+                <Link href={option.link}>
+                  <a>{option.label}</a>
+                </Link>
+              </li>
+            ))
+          }
         </ul>
       </div>
     </header>
