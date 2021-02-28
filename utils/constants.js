@@ -1,10 +1,10 @@
 export const options = [
-    {
-      label: 'Contact me',
-      link: '/contact',
-    },
-    {
-      label: 'About me',
-      link: '/about',
-    },
+  {
+    label: 'About me',
+    link: '/about',
+  },  
+  {
+    label: 'Contact me',
+    link: '/contact',
+  },  
 ]
