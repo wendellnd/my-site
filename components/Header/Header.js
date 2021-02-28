@@ -4,9 +4,10 @@ import Link from 'next/link'
 const Header = ({ options }) => {
   return (
     <header className={styles.header}>
-      <Link href='/'>
+      <Link href="/">
         <a className={styles.menu}>
-          WendellN<div className={styles.nas}>ascimento</div>D<div className={styles.dou}>ourado</div>
+          WendellN<div className={styles.nas}>ascimento</div>D
+          <div className={styles.dou}>ourado</div>
         </a>
       </Link>
       <div>
