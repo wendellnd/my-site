@@ -4,7 +4,6 @@ import styles from './styles.module.css'
 
 const Speech = () => {
     const [speechIndex, setSpeechIndex] = useState(0)
-    
     const speechs = [
       'Hello! if you’re here, I think you wanna know about me',
       'Fortunately,  I will share it with you ;)',

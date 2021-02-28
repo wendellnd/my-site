@@ -6,11 +6,11 @@ import styles from '../styles/home.module.css'
 const Home = () => {
 
   return (
-    <body className={styles.body}>
+    <div className={styles.body}>
       <Header options={utils.options} />
 
       <Speech />
-    </body>
+    </div>
   )
 }
 
