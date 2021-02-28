@@ -13,6 +13,50 @@
 .menu {
   font-size: 25px;
   line-height: 35px;
+  width: 50rem;
+  display: flex;
+  flex-direction: row;
+  text-decoration: none;
+  color: white;
+}
+
+.nas {
+  display: none;
+}
+
+.dou {
+  display: none;
+}
+
+.menu:hover .nas {
+  display: block;
+  overflow: hidden;
+  letter-spacing: 0.15em;
+  animation: typingNas 2s;
+}
+.menu:hover .dou {
+  display: block;
+  overflow: hidden;
+  letter-spacing: 0.15em;
+  animation: typingDou 3.5s;
+}
+
+@keyframes typingNas {
+  from {
+    width: 0;
+  }
+  to {
+    width: 22.15%;
+  }
+}
+
+@keyframes typingDou {
+  from {
+    width: 0;
+  }
+  to {
+    width: 32.9%;
+  }
 }
 
 .list {
