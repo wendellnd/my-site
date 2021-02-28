@@ -7,6 +7,25 @@
   margin-top: 5rem;
 }
 
+.me {
+  animation: fromBottomToPosition 3s;
+}
+
+@keyframes fromBottomToPosition {
+  0% {
+    top: 100rem;
+  }
+  80% {
+    top: -5rem;
+  }
+  90% {
+    top: 2rem;
+  }
+  100% {
+    top: 0;
+  }
+}
+
 .speechBalloon {
   background-image: url('../../public/speech-balloon.png');
   width: 700px;
