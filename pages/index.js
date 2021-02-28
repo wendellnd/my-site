@@ -18,16 +18,19 @@ const Home = () => {
   return (
     <body className={styles.body}>
       <Header options={utils.options} />
-      <Image 
-        src='/speech-balloon_1.png'
-        width={500}
-        height={500}
-      />
-
-      <div className={styles.speechBalloon}>
-        <button onClick={changeSpeech}>
-          <p>{speechs[speechIndex]}</p>
-        </button>
+      
+      <div className={styles.speechAlign}>
+        <Image 
+          src='/speech-balloon_1.png'
+          width={400}
+          height={500}
+          className={styles.me}
+        />
+        <div className={styles.speechBalloon}>
+          <button onClick={changeSpeech}>
+            <p>{speechs[speechIndex]}</p>
+          </button>
+        </div>
       </div>
     </body>
   )
