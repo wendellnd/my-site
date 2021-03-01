@@ -30,8 +30,8 @@
 
 .speechBalloon {
   background-image: url('../../public/speech-balloon.png');
-  width: 700px;
-  height: 375px;
+  width: 43.75rem;
+  height: 23.4375rem;
   display: flex;
   justify-content: center;
 }
