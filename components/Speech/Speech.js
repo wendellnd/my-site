@@ -17,6 +17,13 @@ const Speech = () => {
         <Image src="/speech-balloon_1.png" width={400} height={400} />
       </div>
       <div className={styles.speechBalloon}>
+        <Image
+          src="/speech-balloon_g.gif"
+          layout="fill"
+          objectFit="cover"
+          objectPosition="center"
+          className={styles.ImageBalloon}
+        />
         <button onClick={changeSpeech}>
           <p>{speechs[speechIndex]}</p>
         </button>

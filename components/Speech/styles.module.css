@@ -31,7 +31,6 @@
 }
 
 .speechBalloon {
-  background-image: url('../../public/speech-balloon_g.gif');
   width: 43.75rem;
   height: 23.4375rem;
   display: flex;
@@ -49,9 +48,15 @@
   }
 }
 
+.imageBalloon {
+  z-index: 0;
+}
+
 .speechBalloon button {
+  position: relative;
+  z-index: 1;
   width: 600px;
-  height: 250px;
+  height: 240px;
   border: none;
   background-color: transparent;
   font-family: 'Press Start 2P';
