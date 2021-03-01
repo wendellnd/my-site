@@ -7,7 +7,7 @@ const Speech = () => {
   const [speechIndex, setSpeechIndex] = useState(0);
 
   const changeSpeech = () => {
-    if (speechIndex < 2) {
+    if (speechIndex < speechs.length - 1) {
       setSpeechIndex(speechIndex + 1);
     }
   };
