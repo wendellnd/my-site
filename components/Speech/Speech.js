@@ -16,7 +16,7 @@ const Speech = () => {
       <Image
         src="/speech-balloon_1.png"
         width={400}
-        height={500}
+        height={400}
         className={styles.me}
       />
       <div className={styles.speechBalloon}>
