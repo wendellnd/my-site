@@ -36,6 +36,17 @@
   height: 23.4375rem;
   display: flex;
   justify-content: center;
+  position: relative;
+  animation: speechBalloonComing 3.5s ease-out;
+}
+
+@keyframes speechBalloonComing {
+  0% {
+    left: 100rem;
+  }
+  100% {
+    left: 0;
+  }
 }
 
 .speechBalloon button {
