@@ -1,5 +1,5 @@
-import Header from '../components/Header/Header';
-import ContactsContainer from '../components/ContactsContainer/ContactsContainer';
+import Header from '../components/Header';
+import ContactsContainer from '../components/ContactsContainer';
 import styles from '../css/contact.module.css';
 import { contactsInfo } from '../utils/constants';
 

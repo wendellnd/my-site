@@ -1,5 +1,5 @@
-import Header from '../components/Header/Header';
-import Speech from '../components/Speech/Speech';
+import Header from '../components/Header';
+import Speech from '../components/Speech';
 import { options } from '../utils/constants';
 const Home = () => {
   return (
