@@ -13,12 +13,9 @@ const Speech = () => {
   };
   return (
     <div className={styles.speechAlign}>
-      <Image
-        src="/speech-balloon_1.png"
-        width={400}
-        height={400}
-        className={styles.me}
-      />
+      <div className={styles.me}>
+        <Image src="/speech-balloon_1.png" width={400} height={400} />
+      </div>
       <div className={styles.speechBalloon}>
         <button onClick={changeSpeech}>
           <p>{speechs[speechIndex]}</p>

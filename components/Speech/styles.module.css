@@ -9,7 +9,9 @@
 .speechAlign div {
   overflow: visible !important;
 }
+
 .me {
+  position: relative;
   animation: fromBottomToPosition 3s;
 }
 
