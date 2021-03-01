@@ -1,6 +1,9 @@
-.header {
+.headerBody {
   color: white;
   background-color: #1a1a1f;
+}
+
+.header {
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -10,7 +13,7 @@
   padding-bottom: 0.7rem;
 }
 
-.menu {
+.backToMenu {
   font-size: 25px;
   letter-spacing: 0.15em;
   line-height: 35px;
@@ -29,13 +32,13 @@
   display: none;
 }
 
-.menu:hover .nas {
+.backToMenu:hover .nas {
   display: block;
   overflow: hidden;
   letter-spacing: 0.15em;
   animation: typingNas 2s;
 }
-.menu:hover .dou {
+.backToMenu:hover .dou {
   display: block;
   overflow: hidden;
   letter-spacing: 0.15em;
@@ -72,4 +75,37 @@
 .list a {
   color: white;
   text-decoration: none;
+}
+
+.about {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.about h1 {
+  margin-block-end: 0.1em;
+}
+
+.about hr {
+  background-color: white;
+  margin-block-start: 0.2em;
+  width: 5rem;
+  height: 0.2rem;
+}
+
+.aboutOptions {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 70rem;
+  padding-bottom: 3rem;
+}
+
+.aboutOptions div {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 12rem;
 }

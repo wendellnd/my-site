@@ -1,5 +1,11 @@
+import Header from '../components/Header/Header';
+
 const About = () => {
-  return <div>Work in progress...</div>;
+  return (
+    <>
+      <Header isAboutPage={true} />
+    </>
+  );
 };
 
 export default About;
