@@ -24,7 +24,6 @@ const Header = ({ options, isAboutPage }) => {
           </ul>
         </div>
       </div>
-
       {isAboutPage && (
         <div className={styles.about}>
           <h1>About me</h1>
