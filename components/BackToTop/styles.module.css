@@ -7,3 +7,7 @@
   bottom: 2rem;
   border: #1a1a1f;
 }
+
+.visibility {
+  display: none;
+}
