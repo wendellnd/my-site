@@ -1,17 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@700&display=swap');
 
-.resumeSection {
-  color: white;
-  margin-right: 5rem;
-  margin-left: 5rem;
-  margin-top: 3rem;
-  margin-bottom: 3rem;
-}
-
-.resumeSection p {
-  text-indent: 1em;
-}
-
 .about {
   color: white;
   background-color: #1a1a1f;
@@ -55,4 +43,30 @@
   background-color: transparent;
   outline: none;
   box-shadow: none;
+}
+
+.sectionsContainer {
+  color: white;
+}
+
+.resumeSection {
+  padding-right: 5rem;
+  padding-left: 5rem;
+  padding-top: 3rem;
+  padding-bottom: 3rem;
+}
+
+.resumeSection p {
+  text-indent: 1em;
+}
+
+.journeySection {
+  background-color: #1a1a1f;
+  padding-right: 5rem;
+  padding-left: 5rem;
+  padding-top: 3rem;
+  padding-bottom: 3rem;
+}
+
+.SkillSetSection {
 }

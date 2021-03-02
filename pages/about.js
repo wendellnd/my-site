@@ -40,26 +40,31 @@ const About = () => {
           </div>
         </div>
       </div>
+      <div className={styles.sectionsContainer}>
+        <div ref={resumeRef} className={styles.resumeSection}>
+          <h1>Resume</h1>
+          <p>
+            <h3>
+              Hello, I’m Wendell Nascimento Dourado, I’m 17 years old, and I’m a
+              web programmer starting the career.
+            </h3>
+          </p>
 
-      <div ref={resumeRef} className={styles.resumeSection}>
-        <h1>Resume</h1>
-        <p>
-          <h3>
-            Hello, I’m Wendell Nascimento Dourado, I’m 17 years old, and I’m a
-            web programmer starting the career.
-          </h3>
-        </p>
-
-        <p>
-          <h3>
-            I’ve been studying since 15 years old, with courses and by myself,
-            actually studying GoLang, MySQL and AWS. I’m currently working at
-            Red Ventures company, inside the IQ’s startup sector.
-          </h3>
-        </p>
+          <p>
+            <h3>
+              I’ve been studying since 15 years old, with courses and by myself,
+              actually studying GoLang, MySQL and AWS. I’m currently working at
+              Red Ventures company, inside the IQ’s startup sector.
+            </h3>
+          </p>
+        </div>
+        <div ref={journeyRef} className={styles.journeySection}>
+          <h1>Journey</h1>
+        </div>
+        <div ref={skillSetRef} className={styles.skillSetSection}>
+          <h1>Skill Set</h1>
+        </div>
       </div>
-      <div ref={journeyRef}></div>
-      <div ref={skillSetRef}></div>
       <BackToTop />
     </>
   );
