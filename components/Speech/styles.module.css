@@ -36,16 +36,6 @@
   display: flex;
   justify-content: center;
   position: relative;
-  animation: speechBalloonComing 2s ease-out;
-}
-
-@keyframes speechBalloonComing {
-  0% {
-    right: 100rem;
-  }
-  100% {
-    right: 0;
-  }
 }
 
 .imageBalloon {
