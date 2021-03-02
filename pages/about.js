@@ -1,5 +1,6 @@
 import Header from '../components/Header';
 import BackToTop from '../components/BackToTop';
+import Image from 'next/image';
 
 import { useRef } from 'react';
 import styles from '../css/about.module.css';
@@ -44,22 +45,25 @@ const About = () => {
         <div ref={resumeRef} className={styles.resumeSection}>
           <h1>Resume</h1>
           <p>
-            <h3>
-              Hello, I’m Wendell Nascimento Dourado, I’m 17 years old, and I’m a
-              web programmer starting the career.
-            </h3>
+            Hello, I’m Wendell Nascimento Dourado, I’m 17 years old, and I’m a
+            web programmer starting the career.
           </p>
 
           <p>
-            <h3>
-              I’ve been studying since 15 years old, with courses and by myself,
-              actually studying GoLang, MySQL and AWS. I’m currently working at
-              Red Ventures company, inside the IQ’s startup sector.
-            </h3>
+            I’ve been studying since 15 years old, with courses and by myself,
+            actually studying GoLang, MySQL and AWS. I’m currently working at
+            Red Ventures company, inside the IQ’s startup sector.
           </p>
         </div>
         <div ref={journeyRef} className={styles.journeySection}>
           <h1>Journey</h1>
+          <div className={styles.journeyDiv}>
+            <div className={styles.journeyDivIcon}>
+              <Image src="/ceap-icon.svg" height={80} width={80} />
+              <b>CEAP</b>
+            </div>
+          </div>
+          <div className={styles.journeyLine}></div>
         </div>
         <div ref={skillSetRef} className={styles.skillSetSection}>
           <h1>Skill Set</h1>

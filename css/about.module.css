@@ -58,6 +58,7 @@
 
 .resumeSection p {
   text-indent: 1em;
+  font-size: 1.2rem;
 }
 
 .journeySection {
@@ -65,7 +66,41 @@
   padding-right: 5rem;
   padding-left: 5rem;
   padding-top: 3rem;
-  padding-bottom: 3rem;
+}
+
+.journeySection > h1 {
+  margin-bottom: 5rem;
+}
+
+.journeyDiv {
+  margin-left: 3rem;
+  margin-right: 3rem;
+  border: 0.3rem solid white;
+}
+
+.journeyDivIcon {
+  width: 11rem;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  position: relative;
+  top: -2.6rem;
+  left: -2.4rem;
+}
+
+.journeyDivIcon b {
+  background-color: #1a1a1f;
+  padding-right: 0.3rem;
+  padding-left: 0.3rem;
+  font-size: 1.5rem;
+}
+
+.journeyLine {
+  margin-left: 3rem;
+  margin-right: 3rem;
+  border-left: 0.3rem solid white;
+  height: 5rem;
 }
 
 .SkillSetSection {
