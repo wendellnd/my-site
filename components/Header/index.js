@@ -1,7 +1,7 @@
 import styles from './styles.module.css';
 import Link from 'next/link';
 
-const Header = ({ options, isAboutPage }) => {
+const Header = ({ options }) => {
   return (
     <header className={styles.headerBody}>
       <div className={styles.header}>
@@ -24,23 +24,6 @@ const Header = ({ options, isAboutPage }) => {
           </ul>
         </div>
       </div>
-      {isAboutPage && (
-        <div className={styles.about}>
-          <h1>About me</h1>
-          <hr></hr>
-          <div className={styles.aboutOptions}>
-            <div>
-              <h3>Resume</h3>
-            </div>
-            <div>
-              <h3>Journey</h3>
-            </div>
-            <div>
-              <h3>Actual Skill Set</h3>
-            </div>
-          </div>
-        </div>
-      )}
     </header>
   );
 };

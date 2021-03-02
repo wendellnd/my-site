@@ -1,0 +1,58 @@
+@import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@700&display=swap');
+
+.resumeSection {
+  color: white;
+  margin-right: 5rem;
+  margin-left: 5rem;
+  margin-top: 3rem;
+  margin-bottom: 3rem;
+}
+
+.resumeSection p {
+  text-indent: 1em;
+}
+
+.about {
+  color: white;
+  background-color: #1a1a1f;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.about h1 {
+  margin-block-end: 0.1em;
+}
+
+.about hr {
+  background-color: white;
+  margin-block-start: 0.2em;
+  width: 5rem;
+  height: 0.2rem;
+}
+
+.aboutOptions {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 70rem;
+  padding-bottom: 3rem;
+}
+
+.aboutOptions div {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 12rem;
+}
+
+.aboutOptions div button {
+  font-family: 'Orbitron', sans-serif;
+  font-size: 1.2rem;
+  border: none;
+  color: white;
+  background-color: transparent;
+  outline: none;
+  box-shadow: none;
+}
