@@ -62,6 +62,13 @@ const About = () => {
               <Image src="/ceap-icon.svg" height={80} width={80} />
               <b>CEAP</b>
             </div>
+            <div className={styles.journeyDivContent}>
+              
+              <p>CEAP is a non-governamental organization that teach courses on a tecnical level.</p>
+              <p>There was when I discovered my passion, with 15 years old, and learned a lot about programming during 3 years.</p>
+              <br></br>
+              <p>What I learned there</p>
+            </div>
           </div>
           <div className={styles.journeyLine}></div>
         </div>
