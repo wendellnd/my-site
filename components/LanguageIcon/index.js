@@ -5,7 +5,7 @@ const LanguageIcon = ({ label, color }) => {
     <>
       <style jsx>
         {`
-          a {
+          div {
             background-color: ${color};
           }
         `}

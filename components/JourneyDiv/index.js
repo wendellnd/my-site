@@ -17,10 +17,21 @@ const JourneyDiv = ({ content }) => {
           ))}
           <br></br>
           <p>{content.apprenticeship.title}</p>
-          {content.apprenticeship.list.map((item) => (
-            <LanguageIcon label={item.text} color={item.color} />
-          ))}
+          <div className={styles.languagesContainer}>
+            {content.apprenticeship.list.map((item) => (
+              <LanguageIcon label={item.text} color={item.color} />
+            ))}
+          </div>
+          {content.project && (
+            <div className={styles.project}>
+              <br></br>
+              <p>{content.project.title}</p>
+
+              <Image src={content.project.icon} height={80} width={80} />
+            </div>
+          )}
         </div>
+        <br></br>
       </div>
       <div className={styles.journeyLine}></div>
     </>

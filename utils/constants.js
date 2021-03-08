@@ -52,13 +52,13 @@ export const journeyContent = [
         {
           text: 'CSS',
           color: '#2965F1',
-        }
-      ]
+        },
+      ],
     },
     project: undefined,
   },
   {
-    icon: "/empty-icon.svg",
+    icon: '/empty-icon.svg',
     title: 'Solo Times',
     paragraphs: [
       'During 6 mounths, I studied by myself, and learned a lot about web programming, with some events and opportunities.',
@@ -78,7 +78,7 @@ export const journeyContent = [
           text: 'MongoDB',
           color: '#008000',
         },
-      ]
+      ],
     },
     project: undefined,
   },
@@ -103,12 +103,11 @@ export const journeyContent = [
           text: 'AWS',
           color: '#F7981F',
         },
-      ]
+      ],
     },
     project: {
-      title: 'Projects',
-      image: "/iq.svg"
-    }
+      title: 'Project',
+      icon: '/iq.svg',
+    },
   },
-]
-
+];

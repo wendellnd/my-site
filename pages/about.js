@@ -56,14 +56,14 @@ const About = () => {
             Red Ventures company, inside the IQ’s startup sector.
           </p>
         </div>
-        
+
         <div ref={journeyRef} className={styles.journeySection}>
           <h1>Journey</h1>
           {journeyContent.map((content) => (
-          <JourneyDiv content={content} />
-        ))}
+            <JourneyDiv content={content} />
+          ))}
         </div>
-        
+
         <div ref={skillSetRef} className={styles.skillSetSection}>
           <h1>Skill Set</h1>
         </div>

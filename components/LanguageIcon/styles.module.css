@@ -1,13 +1,16 @@
 .aStyle {
   text-align: center;
-  padding-top: 0.6rem;
-  padding-bottom: 0.6rem;
-  padding-right: 3rem;
-  padding-left: 3rem;
-  width: 6rem;
-  border-radius: 40px;
 }
 
 .container {
+  margin-left: 1rem;
+  width: 7rem;
   display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-top: 0.6rem;
+  padding-bottom: 0.6rem;
+  padding-right: 2rem;
+  padding-left: 2rem;
+  border-radius: 40px;
 }
