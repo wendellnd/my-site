@@ -1,0 +1,43 @@
+.journeyDiv {
+    margin-left: 3rem;
+    margin-right: 3rem;
+    border: 0.3rem solid white;
+  }
+  
+  .journeyDivIcon {
+    width: 25rem;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    position: relative;
+    top: -2.6rem;
+    margin-bottom: -2.6rem;
+    left: -2.4rem;
+    margin-right: -2.4rem;
+  }
+  
+  .journeyDivIcon b {
+    background-color: #1a1a1f;
+    margin-left: 1rem;
+    padding-right: 0.3rem;
+    padding-left: 0.3rem;
+    font-size: 1.8rem;
+  }
+  
+  .journeyDivContent {
+    margin-right: 3.5rem;
+    margin-left: 5rem;
+    margin-bottom: 3rem;
+  }
+  
+  .journeyDivContent p {
+    font-size: 1.2rem;
+  }
+  
+  .journeyLine {
+    margin-left: 3rem;
+    margin-right: 3rem;
+    border-left: 0.3rem solid white;
+    height: 5rem;
+  }
+  

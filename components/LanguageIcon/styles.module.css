@@ -1,0 +1,13 @@
+.aStyle {
+  text-align: center;
+  padding-top: 0.6rem;
+  padding-bottom: 0.6rem;
+  padding-right: 3rem;
+  padding-left: 3rem;
+  width: 6rem;
+  border-radius: 40px;
+}
+
+.container {
+  display: flex;
+}

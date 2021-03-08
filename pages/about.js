@@ -1,9 +1,10 @@
 import Header from '../components/Header';
+import JourneyDiv from '../components/JourneyDiv';
 import BackToTop from '../components/BackToTop';
-import Image from 'next/image';
 
 import { useRef } from 'react';
 import styles from '../css/about.module.css';
+import { journeyContent } from '../utils/constants';
 
 const About = () => {
   /*
@@ -55,23 +56,14 @@ const About = () => {
             Red Ventures company, inside the IQ’s startup sector.
           </p>
         </div>
+        
         <div ref={journeyRef} className={styles.journeySection}>
           <h1>Journey</h1>
-          <div className={styles.journeyDiv}>
-            <div className={styles.journeyDivIcon}>
-              <Image src="/ceap-icon.svg" height={80} width={80} />
-              <b>CEAP</b>
-            </div>
-            <div className={styles.journeyDivContent}>
-              
-              <p>CEAP is a non-governamental organization that teach courses on a tecnical level.</p>
-              <p>There was when I discovered my passion, with 15 years old, and learned a lot about programming during 3 years.</p>
-              <br></br>
-              <p>What I learned there</p>
-            </div>
-          </div>
-          <div className={styles.journeyLine}></div>
+          {journeyContent.map((content) => (
+          <JourneyDiv content={content} />
+        ))}
         </div>
+        
         <div ref={skillSetRef} className={styles.skillSetSection}>
           <h1>Skill Set</h1>
         </div>
