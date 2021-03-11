@@ -1,7 +1,7 @@
 import Header from '../components/Header';
 import ContactsContainer from '../components/ContactsContainer';
 import styles from '../css/contact.module.css';
-import { contactsInfo } from '../utils/constants';
+import { email, contactsInfo } from '../utils/constants';
 
 const Contact = () => {
   return (
@@ -9,7 +9,7 @@ const Contact = () => {
       <Header />
 
       <div className={styles.content}>
-        <b>wendelldourado.wn@gmail.com</b>
+        <b>{email}</b>
         <hr></hr>
 
         <ContactsContainer contactsInfo={contactsInfo} />

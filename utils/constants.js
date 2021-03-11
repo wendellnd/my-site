@@ -15,6 +15,8 @@ export const speechs = [
   'So, click here and let’s start!',
 ];
 
+export const email = 'wendelldourado.wn@gmail.com';
+
 export const contactsInfo = [
   {
     iconSrc: '/github-icon.svg',
@@ -24,6 +26,11 @@ export const contactsInfo = [
     iconSrc: '/linkedin-icon.svg',
     href: 'https://www.linkedin.com/in/wendell-nascimento-0760a3202/',
   },
+];
+
+export const resumeContent = [
+  'Hello, I’m Wendell Nascimento Dourado, I’m 17 years old, and I’m a web programmer starting the career.',
+  'I’ve been studying since 15 years old, with courses and by myself, actually studying GoLang, MySQL and AWS. I’m currently working at Red Ventures company, inside the IQ’s startup sector.',
 ];
 
 export const journeyContent = [

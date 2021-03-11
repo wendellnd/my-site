@@ -4,7 +4,7 @@ import BackToTop from '../components/BackToTop';
 
 import { useRef } from 'react';
 import styles from '../css/about.module.css';
-import { journeyContent } from '../utils/constants';
+import { resumeContent, journeyContent } from '../utils/constants';
 
 const About = () => {
   /*
@@ -45,16 +45,9 @@ const About = () => {
       <div className={styles.sectionsContainer}>
         <div ref={resumeRef} className={styles.resumeSection}>
           <h1>Resume</h1>
-          <p>
-            Hello, I’m Wendell Nascimento Dourado, I’m 17 years old, and I’m a
-            web programmer starting the career.
-          </p>
-
-          <p>
-            I’ve been studying since 15 years old, with courses and by myself,
-            actually studying GoLang, MySQL and AWS. I’m currently working at
-            Red Ventures company, inside the IQ’s startup sector.
-          </p>
+          {resumeContent.map((paragraph) => (
+            <p>{paragraph}</p>
+          ))}
         </div>
 
         <div ref={journeyRef} className={styles.journeySection}>
