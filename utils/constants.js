@@ -86,7 +86,7 @@ export const journeyContent = [
     icon: '/red-ventures-icon.svg',
     title: 'Red Ventures',
     paragraphs: [
-      'There is where I’m currently working, inside the IQ’s startup sector, I’m a software engineer assistant, learning a lot with another professionals, even though the pandemic.',
+      'There is where I’m currently working, inside the IQ’s startup sector, I’m a software engineer assistant, learning a lot with another professionals, even through the pandemic.',
     ],
     apprenticeship: {
       title: 'What I am working with',
