@@ -11,7 +11,7 @@ export const options = [
 
 export const speechs = [
   'Hello! if you’re here, I think you wanna know about me',
-  'Fortunately,  I will share it with you ;)',
+  'Fortunately,  I will share it with you :)',
   'So, click here and let’s start!',
 ];
 
