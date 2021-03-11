@@ -72,5 +72,19 @@
   margin-bottom: 5rem;
 }
 
-.SkillSetSection {
+.skillSetSection {
+  padding-right: 5rem;
+  padding-left: 5rem;
+  padding-top: 3rem;
+  padding-bottom: 3rem;
+}
+
+.stickyContainer {
+  align-items: center;
+  justify-content: center;
+  display: grid;
+  grid-template-columns: 22rem 22rem;
+  grid-row: auto auto;
+  grid-column-gap: 7rem;
+  grid-row-gap: 5rem;
 }

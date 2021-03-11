@@ -118,3 +118,30 @@ export const journeyContent = [
     },
   },
 ];
+
+export const skillSetContent = [
+  {
+    color: '#00ACD7',
+    title: 'GoLang',
+    text:
+      'That’s the language made by Google that I’m actually working with. I learned GoLang by courses and effectively working with the language, coding RESTful APIs.',
+  },
+  {
+    color: '#37618A',
+    title: 'MySQL',
+    text:
+      'MySQL is the most popular open source database, and I’m using it to contruct databases.',
+  },
+  {
+    color: '#F7981F',
+    title: 'AWS',
+    text:
+      'AWS(Amazon Web Service) is a plataform to upload applications to the cloud.',
+  },
+  {
+    color: '#1BBD1B',
+    title: 'NodeJS',
+    text:
+      'Node.JS is a language built with JavaScript, I’m actually doing web scraping and coding RESTful APIs.',
+  },
+];

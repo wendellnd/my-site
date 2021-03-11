@@ -1,10 +1,15 @@
 import Header from '../components/Header';
 import JourneyDiv from '../components/JourneyDiv';
+import Sticky from '../components/Sticky';
 import BackToTop from '../components/BackToTop';
 
 import { useRef } from 'react';
 import styles from '../css/about.module.css';
-import { resumeContent, journeyContent } from '../utils/constants';
+import {
+  resumeContent,
+  journeyContent,
+  skillSetContent,
+} from '../utils/constants';
 
 const About = () => {
   /*
@@ -42,6 +47,7 @@ const About = () => {
           </div>
         </div>
       </div>
+
       <div className={styles.sectionsContainer}>
         <div ref={resumeRef} className={styles.resumeSection}>
           <h1>Resume</h1>
@@ -59,6 +65,11 @@ const About = () => {
 
         <div ref={skillSetRef} className={styles.skillSetSection}>
           <h1>Skill Set</h1>
+          <div className={styles.stickyContainer}>
+            {skillSetContent.map((skillSet) => (
+              <Sticky content={skillSet} />
+            ))}
+          </div>
         </div>
       </div>
       <BackToTop />
