@@ -51,23 +51,29 @@ const About = () => {
       <div className={styles.sectionsContainer}>
         <div ref={resumeRef} className={styles.resumeSection}>
           <h1>Resume</h1>
-          {resumeContent.map((paragraph) => (
-            <p>{paragraph}</p>
+          {resumeContent.map((paragraph, index) => (
+            <div key={index}>
+              <p key={index}>{paragraph}</p>
+            </div>
           ))}
         </div>
 
         <div ref={journeyRef} className={styles.journeySection}>
           <h1>Journey</h1>
-          {journeyContent.map((content) => (
-            <JourneyDiv content={content} />
+          {journeyContent.map((content, index) => (
+            <div key={index}>
+              <JourneyDiv content={content} />
+            </div>
           ))}
         </div>
 
         <div ref={skillSetRef} className={styles.skillSetSection}>
           <h1>Skill Set</h1>
           <div className={styles.stickyContainer}>
-            {skillSetContent.map((skillSet) => (
-              <Sticky content={skillSet} />
+            {skillSetContent.map((skillSet, index) => (
+              <div key={index}>
+                <Sticky content={skillSet} />
+              </div>
             ))}
           </div>
         </div>

@@ -142,6 +142,6 @@ export const skillSetContent = [
     color: '#1BBD1B',
     title: 'NodeJS',
     text:
-      'Node.JS is a language built with JavaScript, I’m actually doing web scraping and coding RESTful APIs.',
+      'NodeJS is a language built with JavaScript, I’m actually doing web scraping and coding RESTful APIs.',
   },
 ];

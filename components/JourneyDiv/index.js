@@ -12,14 +12,14 @@ const JourneyDiv = ({ content }) => {
           <b>{content.title}</b>
         </div>
         <div className={styles.journeyDivContent}>
-          {content.paragraphs.map((paragraph) => (
-            <p>{paragraph}</p>
+          {content.paragraphs.map((paragraph, index) => (
+            <p key={index}>{paragraph}</p>
           ))}
           <br></br>
           <p>{content.apprenticeship.title}</p>
           <div className={styles.languagesContainer}>
-            {content.apprenticeship.list.map((item) => (
-              <LanguageIcon label={item.text} color={item.color} />
+            {content.apprenticeship.list.map((item, index) => (
+              <LanguageIcon key={index} label={item.text} color={item.color} />
             ))}
           </div>
           {content.project && (
