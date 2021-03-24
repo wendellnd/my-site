@@ -52,18 +52,14 @@ const About = () => {
         <div ref={resumeRef} className={styles.resumeSection}>
           <h1>Resume</h1>
           {resumeContent.map((paragraph, index) => (
-            <div key={index}>
-              <p key={index}>{paragraph}</p>
-            </div>
+            <p key={index}>{paragraph}</p>
           ))}
         </div>
 
         <div ref={journeyRef} className={styles.journeySection}>
           <h1>Journey</h1>
           {journeyContent.map((content, index) => (
-            <div key={index}>
-              <JourneyArea content={content} />
-            </div>
+            <JourneyArea key={index} content={content} />
           ))}
         </div>
 
@@ -71,9 +67,7 @@ const About = () => {
           <h1>Skill Set</h1>
           <div className={styles.stickyContainer}>
             {skillSetContent.map((skillSet, index) => (
-              <div key={index}>
-                <Sticky content={skillSet} />
-              </div>
+              <Sticky key={index} content={skillSet} />
             ))}
           </div>
         </div>
