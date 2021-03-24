@@ -6,10 +6,10 @@ import styles from './styles.module.css';
 const BackToTop = () => {
   const { y: pageYOffset } = useWindowScroll();
 
-  const [visible, setVisibility] = useState(false);
+  const [visible, setVisible] = useState(false);
 
   useEffect(() => {
-    pageYOffset >= 250 ? setVisibility(true) : setVisibility(false);
+    pageYOffset >= 250 ? setVisible(true) : setVisible(false);
   }, [pageYOffset]);
 
   const scrollToTop = () => window.scrollTo({ top: 0, behavior: 'smooth' });
