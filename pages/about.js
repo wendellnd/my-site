@@ -1,5 +1,5 @@
 import Header from '../components/Header';
-import JourneyDiv from '../components/JourneyDiv';
+import JourneyArea from '../components/JourneyArea';
 import Sticky from '../components/Sticky';
 import BackToTop from '../components/BackToTop';
 
@@ -62,7 +62,7 @@ const About = () => {
           <h1>Journey</h1>
           {journeyContent.map((content, index) => (
             <div key={index}>
-              <JourneyDiv content={content} />
+              <JourneyArea content={content} />
             </div>
           ))}
         </div>
