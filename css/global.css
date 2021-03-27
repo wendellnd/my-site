@@ -16,6 +16,10 @@ body {
   z-index: -2;
 }
 
+hr {
+  background-color: white !important;
+}
+
 @media (max-width: 700px) {
   body {
     display: flex;
