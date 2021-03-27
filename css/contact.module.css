@@ -15,5 +15,5 @@
   margin-top: 0.5rem;
   width: 10rem;
   height: 2px;
-  background-color: white;
+  background-color: white !important;
 }

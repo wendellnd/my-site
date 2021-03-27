@@ -14,7 +14,7 @@
 }
 
 .about hr {
-  background-color: white;
+  background-color: white !important;
   margin-block-start: 0.2em;
   width: 5rem;
   height: 0.2rem;
