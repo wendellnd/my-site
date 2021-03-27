@@ -14,7 +14,7 @@ const Speech = () => {
   return (
     <div className={styles.speechAlign}>
       <div className={styles.me}>
-        <Image src="/speech-balloon_1.png" width={400} height={400} />
+        <Image src="/me.gif" width={450} height={450} />
       </div>
       <div className={styles.speechBalloon}>
         <Image
