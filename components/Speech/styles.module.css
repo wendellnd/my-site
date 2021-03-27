@@ -6,12 +6,9 @@
   justify-content: center;
   margin-top: 5rem;
 }
-.speechAlign div {
-  overflow: visible !important;
-}
 
 .me {
-  z-index: 1;
+  z-index: -1;
   position: relative;
   animation: fromBottomToPosition 3s ease-out;
 }
