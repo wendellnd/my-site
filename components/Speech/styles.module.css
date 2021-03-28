@@ -69,6 +69,7 @@
   text-align: left;
   outline: none;
   box-shadow: none;
+  cursor: pointer;
 }
 
 @media (max-width: 720px) {
