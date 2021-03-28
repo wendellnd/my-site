@@ -38,7 +38,7 @@ export const journeyContent = [
     icon: '/ceap-icon.svg',
     title: 'CEAP',
     paragraphs: [
-      'CEAP is a non-governamental organization that teach courses on a tecnical level.',
+      'CEAP is a non-governamental organization with courses on a tecnical level.',
       'There was when I discovered my passion, with 15 years old, and learned a lot about programming during 3 years.',
     ],
     apprenticeship: {
@@ -93,7 +93,7 @@ export const journeyContent = [
     icon: '/red-ventures-icon.svg',
     title: 'Red Ventures',
     paragraphs: [
-      'There is where I’m currently working, inside the IQ’s startup sector, I’m a software engineer assistant, learning a lot with another professionals, even through the pandemic.',
+      'There is where I’m currently working, inside the IQ’s startup sector as a software engineer assistant, learning a lot with another professionals, even through a pandemic.',
     ],
     apprenticeship: {
       title: 'What I am working with',
