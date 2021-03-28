@@ -71,11 +71,7 @@
   box-shadow: none;
 }
 
-.speechBalloon button p {
-  color: black !important;
-}
-
-@media (max-width: 700px) {
+@media (max-width: 720px) {
   .speechBalloon {
     display: none;
   }
