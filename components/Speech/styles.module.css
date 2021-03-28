@@ -63,13 +63,16 @@
   height: 230px;
   border: none;
   background-color: transparent;
-  color: black;
   font-family: 'Press Start 2P';
   letter-spacing: 0.1em;
   font-size: 1.5rem;
   text-align: left;
   outline: none;
   box-shadow: none;
+}
+
+.speechBalloon button p {
+  color: black !important;
 }
 
 @media (max-width: 700px) {
