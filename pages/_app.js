@@ -5,7 +5,7 @@ const App = ({ Component, pageProps }) => (
   <>
     <Head>
       <title>WendellND</title>
-      <link rel="icon" href="/favicon.ico" />
+      <link rel="icon" type="image/x-icon" href="/favicon.ico" />
     </Head>
     <Component {...pageProps} />
   </>
