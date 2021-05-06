@@ -1,10 +1,7 @@
-.headerBody {
+.header {
   z-index: 1;
   color: white;
   background-color: #1a1a1f;
-}
-
-.header {
   display: flex;
   justify-content: space-between;
   align-items: center;
