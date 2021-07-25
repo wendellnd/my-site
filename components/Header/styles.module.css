@@ -79,3 +79,29 @@
 .list li:hover a {
   color: rgb(220, 220, 220);
 }
+
+.burger {
+  display: none;
+}
+
+@media (max-width: 768px) {
+  .burger {
+    display: block;
+  }
+
+  .burger a {
+    color: white;
+    text-decoration: none;
+  }
+
+  .list {
+    display: none;
+  }
+
+  .backToMenu:hover .nas {
+    display: none;
+  }
+  .backToMenu:hover .dou {
+    display: none;
+  }
+}
