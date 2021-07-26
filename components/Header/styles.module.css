@@ -1,10 +1,7 @@
-.headerBody {
+.header {
   z-index: 1;
   color: white;
   background-color: #1a1a1f;
-}
-
-.header {
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -81,4 +78,33 @@
 
 .list li:hover a {
   color: rgb(220, 220, 220);
+}
+
+.burger {
+  display: none;
+}
+
+@media (max-width: 1054px) {
+  .backToMenu {
+    width: 12rem;
+  }
+  .burger {
+    display: block;
+  }
+
+  .burger a {
+    color: white;
+    text-decoration: none;
+  }
+
+  .list {
+    display: none;
+  }
+
+  .backToMenu:hover .nas {
+    display: none;
+  }
+  .backToMenu:hover .dou {
+    display: none;
+  }
 }

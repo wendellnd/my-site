@@ -72,7 +72,7 @@
   cursor: pointer;
 }
 
-@media (max-width: 720px) {
+@media (max-width: 1054px) {
   .speechBalloon {
     display: none;
   }

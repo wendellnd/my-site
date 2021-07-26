@@ -1,10 +1,10 @@
-.journeyDiv {
+.journeyArea {
   margin-left: 3rem;
   margin-right: 3rem;
   border: 0.3rem solid white;
 }
 
-.journeyDivIcon {
+.journeyAreaIcon {
   width: 25rem;
   display: flex;
   flex-direction: row;
@@ -16,7 +16,7 @@
   margin-right: -2.7rem;
 }
 
-.journeyDivIcon b {
+.journeyAreaIcon b {
   background-color: #1a1a1f;
   margin-left: 1rem;
   padding-right: 0.3rem;
@@ -24,13 +24,13 @@
   font-size: 1.8rem;
 }
 
-.journeyDivContent {
+.journeyAreaContent {
   margin-right: 3.5rem;
   margin-left: 5rem;
   margin-bottom: 3rem;
 }
 
-.journeyDivContent p {
+.journeyAreaContent p {
   font-size: 1.2rem;
 }
 
@@ -47,4 +47,68 @@
   margin-right: 3rem;
   border-left: 0.3rem solid white;
   height: 8rem;
+}
+
+@media (max-width: 1054px) {
+  .journeyArea {
+    margin-left: 1rem;
+    margin-right: 1rem;
+    margin-top: 4rem;
+  }
+
+  .journeyAreaContent {
+    margin-right: 2rem;
+    margin-left: 2rem;
+    margin-bottom: 3rem;
+  }
+
+  .journeyAreaIcon {
+    width: 21rem;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    position: relative;
+    top: -2.6rem;
+    margin-bottom: -2.6rem;
+    left: -2.7rem;
+    margin-right: -2.7rem;
+  }
+
+  .journeyAreaIcon b {
+    background-color: #1a1a1f;
+    margin-left: 0.8rem;
+    padding-right: 0.35rem;
+    padding-left: 0.35rem;
+    font-size: 1.8rem;
+  }
+
+  .journeyAreaIcon b {
+    background-color: #1a1a1f;
+    font-size: 1.5rem;
+  }
+
+  .project div {
+    margin-left: 0 !important;
+  }
+
+  .project {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+
+  .journeyLine {
+    display: none;
+  }
+
+  .journeyArea p {
+    font-size: 1rem;
+    text-align: center;
+  }
+  .languagesContainer {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+  }
 }

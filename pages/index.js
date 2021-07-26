@@ -4,7 +4,7 @@ import { options } from '../utils/constants';
 const Home = () => {
   return (
     <>
-      <Header options={options} />
+      <Header options={options} shouldShowOptions={true} />
 
       <Speech />
     </>

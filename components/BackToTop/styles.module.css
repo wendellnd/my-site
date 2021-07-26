@@ -1,11 +1,11 @@
 .backToTop {
-  background-color: #1a1a1f;
+  background-color: #3d3c3c;
   width: 3rem;
   height: 3rem;
   position: fixed;
   right: 2rem;
   bottom: 2rem;
-  border: #1a1a1f;
+  border: #3d3c3c;
 }
 
 .visibility {
