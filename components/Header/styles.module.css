@@ -85,6 +85,9 @@
 }
 
 @media (max-width: 1054px) {
+  .backToMenu {
+    width: 12rem;
+  }
   .burger {
     display: block;
   }
