@@ -14,3 +14,10 @@
   padding-left: 2rem;
   border-radius: 40px;
 }
+
+@media (max-width: 768px) {
+  .container {
+    margin-left: 0;
+    margin-bottom: 0.16rem;
+  }
+}

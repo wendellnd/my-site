@@ -94,3 +94,65 @@
   grid-column-gap: 7rem;
   grid-row-gap: 5rem;
 }
+
+@media (max-width: 1054px) {
+  .about {
+    display: none;
+  }
+
+  .resumeSection {
+    padding-right: 0.8rem;
+    padding-left: 0.8rem;
+  }
+
+  .resumeSection p {
+    text-indent: 0;
+    text-align: center;
+  }
+
+  .journeySection {
+    background-color: #1a1a1f;
+    padding-left: 1.5rem;
+    padding-right: 1.5rem;
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+  }
+
+  .stickyContainer {
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+  .skillSetSection {
+    padding-right: 1rem;
+    padding-left: 1rem;
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+  }
+
+  .journeySection {
+    background-color: #1a1a1f;
+    padding-left: 1.5rem;
+    padding-right: 1.5rem;
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+  }
+
+  .resumeSection h1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .journeySection h1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .skillSetSection h1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+}
