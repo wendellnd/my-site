@@ -3,7 +3,7 @@ import Link from 'next/link';
 import { slide as Menu } from 'react-burger-menu';
 const BurguerStyles = {
   bmBurgerButton: {
-    position: 'fixed',
+    position: 'absolute',
     width: '2rem',
     height: '1.8rem',
     right: '1.5rem',
@@ -46,7 +46,7 @@ const BurguerStyles = {
     background: 'rgba(0, 0, 0, 0.3)',
   },
 };
-const Header = ({ options }) => {
+const Header = ({ options, shouldShowOptions = false }) => {
   return (
     <>
       {options && (
@@ -72,15 +72,17 @@ const Header = ({ options }) => {
           </a>
         </Link>
 
-        {options && (
+        {options && shouldShowOptions && (
           <ul className={styles.list}>
-            {options.map((option, index) => (
-              <li key={index}>
-                <Link href={option.link}>
-                  <a>{option.label}</a>
-                </Link>
-              </li>
-            ))}
+            {options
+              .filter((option) => !option.label.includes('Home'))
+              .map((option, index) => (
+                <li key={index}>
+                  <Link href={option.link}>
+                    <a>{option.label}</a>
+                  </Link>
+                </li>
+              ))}
           </ul>
         )}
       </header>

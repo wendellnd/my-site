@@ -6,6 +6,7 @@ import BackToTop from '../components/BackToTop';
 import { useRef } from 'react';
 import styles from '../css/about.module.css';
 import {
+  options,
   resumeContent,
   journeyContent,
   skillSetContent,
@@ -31,7 +32,7 @@ const About = () => {
 
   return (
     <>
-      <Header />
+      <Header options={options} />
       <div className={styles.about}>
         <h1>About me</h1>
         <hr></hr>

@@ -1,5 +1,9 @@
 export const options = [
   {
+    label: 'Home',
+    link: '/',
+  },
+  {
     label: 'About me',
     link: '/about',
   },

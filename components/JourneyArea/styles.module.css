@@ -49,7 +49,7 @@
   height: 8rem;
 }
 
-@media (max-width: 768px) {
+@media (max-width: 1054px) {
   .journeyArea {
     margin-left: 1rem;
     margin-right: 1rem;
