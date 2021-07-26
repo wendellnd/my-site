@@ -33,7 +33,7 @@ export const contactsInfo = [
 ];
 
 export const resumeContent = [
-  'Hello, I’m Wendell Nascimento Dourado, I’m 17 years old, and I’m a web programmer starting the career.',
+  'Hello, I’m Wendell Nascimento Dourado, I’m 18 years old, and I’m a web programmer starting the career.',
   'I’ve been studying since 15 years old, with courses and by myself, actually studying GoLang, MySQL and AWS. I’m currently working at Red Ventures company, inside the IQ’s startup sector.',
 ];
 
