@@ -1,14 +1,22 @@
+import { useMediaQuery } from 'react-responsive';
+
 import LanguageIcon from '../LanguageIcon';
 
 import Image from 'next/image';
 import styles from './styles.module.css';
 
 const JourneyArea = ({ content }) => {
+  const isMobile = useMediaQuery({
+    query: '(max-width: 1054px)',
+  });
+
   return (
     <>
       <div className={styles.journeyArea}>
         <div className={styles.journeyAreaIcon}>
-          <Image src={content.icon} height={80} width={80} />
+          {!isMobile ? (
+            <Image src={content.icon} height={80} width={80} />
+          ) : null}
           <b>{content.title}</b>
         </div>
 
