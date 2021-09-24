@@ -46,7 +46,7 @@ export const journeyContent = [
       'There was when I discovered my passion, with 15 years old, and learned a lot about programming during 3 years.',
     ],
     apprenticeship: {
-      title: 'What I leaned there',
+      title: 'What I learned there',
       list: [
         {
           text: 'Java',
@@ -75,7 +75,7 @@ export const journeyContent = [
       'During 6 mounths, I studied by myself, and learned a lot about web programming, with some events and opportunities.',
     ],
     apprenticeship: {
-      title: 'What I leaned',
+      title: 'What I learned',
       list: [
         {
           text: 'ReactJS',
