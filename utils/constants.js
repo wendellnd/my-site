@@ -33,8 +33,8 @@ export const contactsInfo = [
 ];
 
 export const resumeContent = [
-  'Hello, I’m Wendell Nascimento Dourado, I’m 18 years old, and I’m a web programmer starting the career.',
-  'I’ve been studying since 15 years old, with courses and by myself, actually studying GoLang, MySQL and AWS. I’m currently working at Red Ventures company, inside the IQ’s startup sector.',
+  'Hello, I’m Wendell Nascimento Dourado, I’m 18 years old, and I’m Software Engineer aways searching for learning.',
+  'I’ve been studying since 15 years old, with courses and by myself, actually working with GoLang, NodeJS, MySQL and AWS at Red Ventures company, inside the IQ’s startup sector.',
 ];
 
 export const journeyContent = [
@@ -97,7 +97,7 @@ export const journeyContent = [
     icon: '/red-ventures-icon.svg',
     title: 'Red Ventures',
     paragraphs: [
-      'There is where I’m currently working, inside the IQ’s startup sector as a software engineer assistant, learning a lot with another professionals, even through a pandemic.',
+      'There is where I’m currently working, inside the IQ’s startup sector as a Junior Software Engineer, learning a lot with another professionals.',
     ],
     apprenticeship: {
       title: 'What I am working with',
@@ -105,6 +105,10 @@ export const journeyContent = [
         {
           text: 'GoLang',
           color: '#00ACD7',
+        },
+        {
+          text: 'NodeJS',
+          color: '#1BBD1B',
         },
         {
           text: 'MySQL',
@@ -127,25 +131,21 @@ export const skillSetContent = [
   {
     color: '#00ACD7',
     title: 'GoLang',
-    text:
-      'That’s the language made by Google that I’m actually working with. I learned GoLang by courses and effectively working with the language, coding RESTful APIs.',
+    text: 'That’s the language made by Google that I’m actually working with, coding RESTful APIs.',
   },
   {
     color: '#37618A',
     title: 'MySQL',
-    text:
-      'MySQL is the most popular open source database, and I’m using it to contruct databases.',
+    text: 'MySQL is the most popular open source database, and I’m using it to contruct databases.',
   },
   {
     color: '#F7981F',
     title: 'AWS',
-    text:
-      'AWS(Amazon Web Service) is a plataform to upload applications to the cloud.',
+    text: 'AWS(Amazon Web Service) is the plataform that I’m using to provide applications',
   },
   {
     color: '#1BBD1B',
     title: 'NodeJS',
-    text:
-      'NodeJS is a language built with JavaScript, I’m actually doing web scraping and coding RESTful APIs.',
+    text: 'NodeJS is a language built with JavaScript, I’m actually doing web scraping and coding RESTful APIs.',
   },
 ];
