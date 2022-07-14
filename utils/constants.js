@@ -1,3 +1,5 @@
+import { getAge } from './utils';
+
 export const options = [
   {
     label: 'Home',
@@ -33,7 +35,7 @@ export const contactsInfo = [
 ];
 
 export const resumeContent = [
-  'Hello, I’m Wendell Nascimento Dourado, I’m 18 years old, and I’m Software Engineer aways searching for learning.',
+  `Hello, I’m Wendell Nascimento Dourado, I’m ${getAge()} years old, and I’m Software Engineer aways searching for learning.`,
   'I’ve been studying since 15 years old, with courses and by myself, actually working with GoLang, NodeJS, MySQL and AWS at Red Ventures company, inside the IQ’s startup sector.',
 ];
 
@@ -131,21 +133,25 @@ export const skillSetContent = [
   {
     color: '#00ACD7',
     title: 'GoLang',
-    text: 'That’s the language made by Google that I’m actually working with, coding RESTful APIs.',
+    text:
+      'That’s the language made by Google that I’m actually working with, coding RESTful APIs.',
   },
   {
     color: '#37618A',
     title: 'MySQL',
-    text: 'MySQL is the most popular open source database, and I’m using it to contruct databases.',
+    text:
+      'MySQL is the most popular open source database, and I’m using it to contruct databases.',
   },
   {
     color: '#F7981F',
     title: 'AWS',
-    text: 'AWS(Amazon Web Service) is the plataform that I’m using to provide applications',
+    text:
+      'AWS(Amazon Web Service) is the plataform that I’m using to provide applications',
   },
   {
     color: '#1BBD1B',
     title: 'NodeJS',
-    text: 'NodeJS is a language built with JavaScript, I’m actually doing web scraping and coding RESTful APIs.',
+    text:
+      'NodeJS is a language built with JavaScript, I’m actually doing web scraping and coding RESTful APIs.',
   },
 ];
