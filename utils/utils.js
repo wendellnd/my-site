@@ -1,9 +1,9 @@
 import moment from 'moment';
 
 export const getAge = () => {
-  const currentYear = moment().year();
+  const dateOfBirth = moment('09/06/2003', 'DD/MM/YYYY');
 
-  const birthYear = moment('09/06/2003', 'DD/MM/YYYY').year();
+  const age = moment().diff(dateOfBirth, 'years');
 
-  return currentYear - birthYear;
+  return age;
 };
