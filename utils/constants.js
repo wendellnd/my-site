@@ -36,7 +36,7 @@ export const contactsInfo = [
 
 export const resumeContent = [
   `Hello, I’m Wendell Nascimento Dourado, I’m ${getAge()} years old, and I’m Software Engineer aways searching for learning.`,
-  'I’ve been studying since 15 years old, with courses and by myself, actually working with GoLang, NodeJS, MySQL and AWS at Red Ventures company, inside the IQ’s startup sector.',
+  'I’ve been studying since 15 years old, with courses and by myself, actually working with GoLang, NodeJS, MySQL and AWS at Consumidor Positivo as a Junior Software Engineer.',
 ];
 
 export const journeyContent = [
@@ -99,7 +99,7 @@ export const journeyContent = [
     icon: '/red-ventures-icon.svg',
     title: 'Red Ventures',
     paragraphs: [
-      'There is where I’m currently working, inside the IQ’s startup sector as a Junior Software Engineer, learning a lot with another professionals.',
+      'There is where I started my career, as a Intern, working with NodeJS, Go, AWS at iq startup sector, learning a lot with another professionals.',
     ],
     apprenticeship: {
       title: 'What I am working with',
@@ -127,6 +127,39 @@ export const journeyContent = [
       icon: '/iq.svg',
     },
   },
+  {
+    icon: '/cp.svg',
+    title: 'Consumidor Positivo',
+    paragraphs: [
+      'Red Ventures sold IQ to another company, and I was transferred to that organization. The project has since been renamed ’Consumidor Positivo’.',
+      'There is where I’m currently working, on the authentication system, as a Junior Software Engineer.',
+    ],
+    apprenticeship: {
+      title: 'What I am working with',
+      list: [
+        {
+          text: 'GoLang',
+          color: '#00ACD7',
+        },
+        {
+          text: 'MySQL',
+          color: '#37618A',
+        },
+        {
+          text: 'DynamoDB',
+          color: '#2272BA',
+        },
+        {
+          text: 'Kubernetes',
+          color: '#326DE6',
+        },
+        {
+          text: 'Serverless',
+          color: '#D40000',
+        },
+      ],
+    },
+  },
 ];
 
 export const skillSetContent = [
@@ -137,21 +170,32 @@ export const skillSetContent = [
       'That’s the language made by Google that I’m actually working with, coding RESTful APIs.',
   },
   {
-    color: '#37618A',
-    title: 'MySQL',
-    text:
-      'MySQL is the most popular open source database, and I’m using it to contruct databases.',
-  },
-  {
     color: '#F7981F',
     title: 'AWS',
     text:
       'AWS(Amazon Web Service) is the plataform that I’m using to provide applications',
   },
   {
-    color: '#1BBD1B',
-    title: 'NodeJS',
+    color: '#37618A',
+    title: 'MySQL',
     text:
-      'NodeJS is a language built with JavaScript, I’m actually doing web scraping and coding RESTful APIs.',
+      'MySQL is the most popular open source database, and I’m using it to contruct databases.',
+  },
+  {
+    color: '#2272BA',
+    title: 'DynamoDB',
+    text: 'DynamoDB is a NoSQL database, I’m using it to store some data.',
+  },
+  {
+    color: '#326DE6',
+    title: 'Kubernetes',
+    text:
+      'Kubernetes is a plataform to automate the deployment, scaling, and operations of application containers.',
+  },
+  {
+    color: '#D40000',
+    title: 'Serverless',
+    text:
+      'Serverless is a cloud computing execution model, I’m using it to run some functions.',
   },
 ];

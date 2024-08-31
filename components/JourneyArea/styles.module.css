@@ -5,7 +5,6 @@
 }
 
 .journeyAreaIcon {
-  width: 25rem;
   display: flex;
   flex-direction: row;
   align-items: center;
@@ -16,12 +15,13 @@
   margin-right: -2.7rem;
 }
 
-.journeyAreaIcon b {
+.journeyAreaTitle {
   background-color: #1a1a1f;
   margin-left: 1rem;
   padding-right: 0.3rem;
   padding-left: 0.3rem;
-  font-size: 1.8rem;
+  font-size: 1.5rem;
+  white-space: nowrap;
 }
 
 .journeyAreaContent {

@@ -17,7 +17,7 @@ const JourneyArea = ({ content }) => {
           {!isMobile ? (
             <Image src={content.icon} height={80} width={80} />
           ) : null}
-          <b>{content.title}</b>
+          <b className={styles.journeyAreaTitle}>{content.title}</b>
         </div>
 
         <div className={styles.journeyAreaContent}>
