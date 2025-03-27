@@ -30,7 +30,7 @@ export const contactsInfo = [
   },
   {
     iconSrc: '/linkedin-icon.svg',
-    href: 'https://www.linkedin.com/in/wendell-nascimento-dourado-0760a3202/',
+    href: 'https://www.linkedin.com/in/wendellnd/',
   },
 ];
 
