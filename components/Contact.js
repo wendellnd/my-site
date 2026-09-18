@@ -6,7 +6,7 @@ const Contact = ({ t }) => (
     <div className="flex flex-wrap items-center gap-2.5">
       <a
         href={`mailto:${EMAIL}`}
-        className="text-[22px] font-medium tracking-[-.01em] break-all text-fg no-underline transition-colors hover:text-accent-hover"
+        className="text-[1.375rem] font-medium tracking-[-.01em] break-all text-fg no-underline transition-colors hover:text-accent-hover"
       >
         {EMAIL}
       </a>
@@ -18,7 +18,7 @@ const Contact = ({ t }) => (
         href={GITHUB}
         target="_blank"
         rel="noreferrer"
-        className="text-accent underline-offset-[3px] transition-colors hover:text-accent-hover"
+        className="text-accent underline-offset-[0.1875rem] transition-colors hover:text-accent-hover"
       >
         GitHub
       </a>
@@ -26,13 +26,13 @@ const Contact = ({ t }) => (
         href={LINKEDIN}
         target="_blank"
         rel="noreferrer"
-        className="text-accent underline-offset-[3px] transition-colors hover:text-accent-hover"
+        className="text-accent underline-offset-[0.1875rem] transition-colors hover:text-accent-hover"
       >
         LinkedIn
       </a>
     </div>
 
-    <p className="m-0 text-[13px] text-fg-dim">{t.footer}</p>
+    <p className="m-0 text-[0.8125rem] text-fg-dim">{t.footer}</p>
   </div>
 );
 

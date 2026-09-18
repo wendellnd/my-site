@@ -27,9 +27,11 @@ const Site = () => {
         <Rule />
 
         <Section id="about" title={t.nav.about}>
-          <div className="flex max-w-[680px] flex-col gap-3.5">
-            <p className="m-0 text-[17px] text-pretty text-fg">{t.about1}</p>
-            <p className="m-0 text-[17px] text-pretty text-fg-muted">
+          <div className="flex max-w-[42.5rem] flex-col gap-3.5">
+            <p className="m-0 text-[1.0625rem] text-pretty text-fg">
+              {t.about1}
+            </p>
+            <p className="m-0 text-[1.0625rem] text-pretty text-fg-muted">
               {t.about2}
             </p>
           </div>

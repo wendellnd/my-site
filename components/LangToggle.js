@@ -1,6 +1,8 @@
 const LangToggle = ({ lang, onChange, size = 'sm' }) => {
   const padding =
-    size === 'sm' ? 'px-[11px] py-[5px] text-xs' : 'px-3 py-1.5 text-[13px]';
+    size === 'sm'
+      ? 'px-[0.6875rem] py-[0.3125rem] text-xs'
+      : 'px-3 py-1.5 text-[0.8125rem]';
 
   const buttonClass = (value) =>
     [

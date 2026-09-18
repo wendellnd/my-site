@@ -2,7 +2,7 @@ import LangToggle from './LangToggle';
 
 const Header = ({ t, lang, onLangChange }) => (
   <header className="sticky top-0 z-50 bg-surface/90 backdrop-blur-md">
-    <div className="shell flex items-center gap-7 py-[22px] text-sm">
+    <div className="shell flex items-center gap-7 py-[1.375rem] text-sm">
       <a
         href="#top"
         className="mr-auto text-base font-medium text-fg no-underline transition-colors hover:text-accent"

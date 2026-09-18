@@ -25,8 +25,15 @@
 
 @layer base {
   html {
+    /* Fluid scale: every length below is in rem, so the whole layout — type,
+       columns, gaps — grows together. Flat 1rem up to 1280px (phone, tablet
+       and small laptops untouched), then ramps to 1.5rem at 2560px. Because
+       everything scales by the same factor, line length stays at ~80
+       characters at every width. The rem floor keeps the user's own default
+       font size in play instead of hard-coding 16px. */
+    font-size: clamp(1rem, 0.5rem + 0.625vw, 1.5rem);
     scroll-behavior: smooth;
-    scroll-padding-top: 88px;
+    scroll-padding-top: 5.5rem;
     /* Reserve the scrollbar gutter on both sides so margin-inline:auto centres
        against the window, not against the window minus the scrollbar. */
     scrollbar-gutter: stable both-edges;
@@ -37,7 +44,7 @@
     background: var(--color-surface);
     color: var(--color-fg);
     font-family: var(--font-sans);
-    font-size: 15px;
+    font-size: 0.9375rem;
     line-height: 1.55;
   }
 
@@ -57,12 +64,12 @@
 
 @layer utilities {
   /* Centred content column inside a full-bleed background.
-     72 padding + 260 label column + 48 gap + 680 content + 72 padding = 1132.
-     680 is the widest text block in the design (About), so the rules, the
-     skills table and the prose all stop on the same right edge. */
+     4.5 padding + 16.25 label column + 3 gap + 42.5 content + 4.5 padding = 70.75rem.
+     42.5rem (680px at base scale) is the widest text block in the design
+     (About), so rules, skills table and prose share one right edge. */
   .shell {
     margin-inline: auto;
-    max-width: 1132px;
+    max-width: 70.75rem;
     padding-inline: 1.5rem;
   }
 
@@ -74,7 +81,7 @@
 
   @media (width >= 64rem) {
     .shell {
-      padding-inline: 72px;
+      padding-inline: 4.5rem;
     }
   }
 
@@ -84,8 +91,8 @@
     background: linear-gradient(
       to right,
       transparent,
-      rgba(233, 233, 237, 0.16) 48px,
-      rgba(233, 233, 237, 0.16) calc(100% - 48px),
+      rgba(233, 233, 237, 0.16) 3rem,
+      rgba(233, 233, 237, 0.16) calc(100% - 3rem),
       transparent
     );
   }
@@ -95,8 +102,8 @@
     background: linear-gradient(
         to right,
         transparent,
-        rgba(233, 233, 237, 0.16) 48px,
-        rgba(233, 233, 237, 0.16) calc(100% - 48px),
+        rgba(233, 233, 237, 0.16) 3rem,
+        rgba(233, 233, 237, 0.16) calc(100% - 3rem),
         transparent
       )
       no-repeat bottom / 100% 1px;
@@ -106,8 +113,8 @@
     background: linear-gradient(
         to right,
         transparent,
-        rgba(233, 233, 237, 0.08) 48px,
-        rgba(233, 233, 237, 0.08) calc(100% - 48px),
+        rgba(233, 233, 237, 0.08) 3rem,
+        rgba(233, 233, 237, 0.08) calc(100% - 3rem),
         transparent
       )
       no-repeat bottom / 100% 1px;

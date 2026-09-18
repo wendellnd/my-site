@@ -30,7 +30,7 @@ const CopyButton = ({ t }) => {
         copied ? 'text-accent' : 'text-fg-soft'
       }`}
     >
-      {copied ? <Check size={14} /> : <Copy size={14} />}
+      {copied ? <Check size="1em" /> : <Copy size="1em" />}
       {copied ? t.copied : t.copy}
     </button>
   );
