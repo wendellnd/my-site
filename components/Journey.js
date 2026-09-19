@@ -1,5 +1,7 @@
-const JourneyItem = ({ item }) => (
-  <div className="grid grid-cols-[1.5rem_minmax(0,1fr)] gap-5">
+import Reveal from './Reveal';
+
+const JourneyItem = ({ item, delay }) => (
+  <Reveal delay={delay} className="grid grid-cols-[1.5rem_minmax(0,1fr)] gap-5">
     <div className="flex flex-col items-center">
       <span
         className="mt-[0.4375rem] h-[0.5625rem] w-[0.5625rem] flex-none rounded-full"
@@ -50,7 +52,7 @@ const JourneyItem = ({ item }) => (
         ))}
       </div>
     </div>
-  </div>
+  </Reveal>
 );
 
 const Journey = ({ groups }) => (
@@ -62,8 +64,8 @@ const Journey = ({ groups }) => (
           <span className="rule-trail h-px flex-1" />
         </div>
         <div className="flex flex-col">
-          {group.items.map((item) => (
-            <JourneyItem key={item.org} item={item} />
+          {group.items.map((item, index) => (
+            <JourneyItem key={item.org} item={item} delay={index * 90} />
           ))}
         </div>
       </div>

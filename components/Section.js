@@ -1,10 +1,12 @@
+import Reveal from './Reveal';
+
 /* The 16.25rem + content grid every section below the hero sits on. */
 const Section = ({ id, title, note, className = '', children }) => (
   <section id={id}>
     <div
       className={`shell grid gap-12 py-16 lg:grid-cols-[16.25rem_minmax(0,1fr)] ${className}`}
     >
-      <div>
+      <Reveal>
         <h2 className="m-0 pt-1.5 text-[0.8125rem] font-medium tracking-[.1em] text-accent uppercase">
           {title}
         </h2>
@@ -13,8 +15,8 @@ const Section = ({ id, title, note, className = '', children }) => (
             {note}
           </p>
         )}
-      </div>
-      {children}
+      </Reveal>
+      <Reveal delay={80}>{children}</Reveal>
     </div>
   </section>
 );

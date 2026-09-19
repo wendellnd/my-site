@@ -1,3 +1,5 @@
+import Reveal from './Reveal';
+
 const row =
   'grid grid-cols-[1fr_auto] gap-4 lg:grid-cols-[10rem_5.625rem_minmax(0,1fr)]';
 
@@ -11,9 +13,11 @@ const Skills = ({ t, skills }) => (
       <span className="hidden lg:block">{t.th.where}</span>
     </div>
 
-    {skills.map((skill) => (
-      <div
+    {skills.map((skill, index) => (
+      <Reveal
         key={skill.name}
+        as="div"
+        delay={index * 60}
         className={`${row} rule-under-soft items-center px-2 py-3.5 transition-colors hover:bg-[rgba(233,233,237,.04)]`}
       >
         <span className="text-base font-medium">{skill.name}</span>
@@ -22,7 +26,7 @@ const Skills = ({ t, skills }) => (
           {skill.where}
           {skill.note && <span className="text-fg-dim"> · {skill.note}</span>}
         </span>
-      </div>
+      </Reveal>
     ))}
   </div>
 );
